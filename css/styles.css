@@ -13,7 +13,10 @@ ul {
     padding-left: 0;
 }
 
-button {
+button,
+input,
+textarea {
+    line-height: inherit;
     font-family: inherit;
 }
 
@@ -168,7 +171,7 @@ img {
 /* ---------hero--------------- */
 .hero {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -576,3 +579,78 @@ cover-description:hover {
 .footer-icon-social {
     fill: #f4f4fd;
 }
+
+.subscribe-form {
+    max-width: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subscribe-conteiner {
+    margin-left: 24px;
+}
+
+.subscribe-form label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form input {
+    padding: 8px;
+}
+
+.subscribe-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+
+.footer-subscribe-label {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-input {}
+
+.footer-submit-btn {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+
+}
+
+.footer-submit-btn:hover {
+    background-color: #404bbf;
+}
+
+.footer-submit-btn:focus {
+    background-color: #404BBF;
+}
+.subscribe-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    fill: #fff;
+    align-items: self-end;
+}
+

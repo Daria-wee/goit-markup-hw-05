@@ -923,7 +923,7 @@ color: #8e8f99;
 
 .icon-vector {}
 
-.modal-checkbox-input:checked + .checkbox-label span {
+.modal-checkbox-input:checked + .modal-label span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;

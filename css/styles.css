@@ -783,11 +783,11 @@ input::placeholder {
 
 /* name */
 
-.modal-name {
+.modal-info {
     margin-bottom: 8px;
 }
 
-.modal-name-label {
+.modal-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -796,12 +796,12 @@ input::placeholder {
     margin-bottom: 4px;
 }
 
-.modal-name-form {
+.modal-form {
     position: relative;
 
 }
 
-.modal-name-input {
+.modal-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -813,17 +813,17 @@ input::placeholder {
 
 }
 
-.modal-name-input:hover,
-.modal-name-input:focus,
-.modal-name-input:active {
+.modal-input:hover,
+.modal-input:focus,
+.modal-input:active {
 border: 1px solid #4D5AE5;
 }
 
-.modal-name-input:focus+.icon-person-black {
+.modal-input:focus+.icon-person-black {
     fill: #4D5AE5;
 }
 
-.icon-person-black {
+.icon-person-black, .icon-phone-black, .icon-email-black {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -832,8 +832,34 @@ border: 1px solid #4D5AE5;
 
 }
 
-/* tel */
+.modal-input:focus+.icon-phone-black, .modal-input:focus+.icon-email-black, .modal-input:focus+.icon-person-black {
+    fill: #4D5AE5;
+}
+/* 
 
+.icon-phone-black {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus+.icon-email-black {
+    fill: #4D5AE5;
+}
+
+.icon-email-black {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+
+/* tel */
+/* 
 .modal-tel-input:hover,
 .modal-tel-input:focus,
 .modal-tel-input:active {
@@ -868,7 +894,7 @@ border: 1px solid #4D5AE5;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-tel-input:focus+.icon-phone-black {
+.modal-input:focus+.icon-phone-black {
     fill: #4D5AE5;
 }
 
@@ -879,10 +905,10 @@ border: 1px solid #4D5AE5;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* email */
-
+/* 
 .modal-email-input:hover,
 .modal-email-input:focus,
 .modal-email-input:active {
@@ -927,7 +953,7 @@ border: 1px solid #4D5AE5;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* chackbox */
 

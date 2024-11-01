@@ -599,6 +599,7 @@ cover-description:hover {
 
 .subscribe-form input {
     padding: 8px;
+    padding-left: 16px;
 }
 
 .subscribe-title {
@@ -627,7 +628,7 @@ cover-description:hover {
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #ffffff;
-    
+
 
 }
 
@@ -636,6 +637,7 @@ input::placeholder {
 }
 
 .footer-submit-btn {
+    position: relative;
     border-radius: 4px;
     padding: 8px 24px;
     width: 165px;
@@ -644,7 +646,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -657,6 +658,7 @@ input::placeholder {
     border: none;
 
 }
+
 
 .footer-submit-btn:hover {
     background-color: #404bbf;

@@ -841,13 +841,13 @@ border: 1px solid #4D5AE5;
     margin-bottom: 16px;
 }
 
-.modal-checkbox-label {
+/* .modal-checkbox-label {
     font-weight: 400;
 font-size: 12px;
 line-height: 117%;
 letter-spacing: 0.04em;
 color: #8e8f99;
-}
+} */
 
 .modal-checkbox-form {
     margin-bottom: 24px;
@@ -900,13 +900,13 @@ color: #8e8f99;
 .modal-checkbox-input{
 }
 
-/* .checkbox-label {
+.checkbox-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
-} */
+}
 
 .modal-span {
     width: 16px;

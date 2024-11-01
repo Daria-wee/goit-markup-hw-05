@@ -815,7 +815,11 @@ input::placeholder {
 border: 1px solid #4D5AE5;
 }
 
-.modal-name-input:focus .icon-person-black {
+/* .modal-name-input:focus + .icon-person-black {
+    fill: #4D5AE5;
+} */
+
+.modal-name-input:focus+.icon-person-black {
     fill: #4D5AE5;
 }
 
@@ -864,6 +868,10 @@ border: 1px solid #4D5AE5;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.modal-tel-input:focus+.icon-phone-black {
+    fill: #4D5AE5;
 }
 
 .modal-tel-input:focus {
@@ -916,6 +924,10 @@ border: 1px solid #4D5AE5;
 
 .modal-email-input:focus {
     border-color: #4D5AE5;
+}
+
+.modal-email-input:focus+.icon-email-black {
+    fill: #4D5AE5;
 }
 
 .icon-email-black {
@@ -1029,5 +1041,9 @@ height: 56px;
 }
 
 .user-privacy-link {
-    color: #4D5AE5;
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+
 }
